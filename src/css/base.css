@@ -4,6 +4,10 @@ body {
   background-color: #e5e5e5;
 }
 
+address {
+  font-style: normal;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
