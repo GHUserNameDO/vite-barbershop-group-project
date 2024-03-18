@@ -37,9 +37,9 @@ address {
 }
 
 /* ___Desktop adaptation__ */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1202px) {
   .container {
-    max-width: 1200px;
+    max-width: 1202px;
     padding: 0 16px;
   }
 }
