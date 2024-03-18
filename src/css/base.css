@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+  background-color: #e5e5e5;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ___Mobile adaptation___ */
+.container {
+  max-width: 480px;
+  padding: 0 31px;
+  margin: 0 auto;
+}
+
+/* ___Tablet adaptation___ */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 39px;
+  }
+}
+
+/* ___Desktop adaptation__ */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 16px;
+  }
+}
