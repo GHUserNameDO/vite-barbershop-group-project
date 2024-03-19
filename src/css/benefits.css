@@ -1,38 +1,42 @@
-@media only screen and (max-width: 480px) {
-  .benefits {
-    padding: 84px 0;
-  }
-  .benefits-line-text-wrapp {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
-  }
-  .benefits-line {
-    height: 1px;
-    width: 60px;
-    background-color: #303030;
-    /* transform: rotate(90deg); */
-  }
-  .benefits-text {
-    display: block;
-    font-weight: 600;
-    font-size: 11px;
-    text-transform: uppercase;
-    color: #303030;
-  }
-  .benefits-title {
-    /* max-width: 418px; */
-    font-family: Raleway;
-    font-size: 42px;
-    letter-spacing: 0.05em;
-    color: #303030;
-    margin-bottom: 20px;
-  }
-  .benefits-paragraph {
-    font-size: 18px;
-    line-height: 1.67;
-    letter-spacing: 0.02em;
-    margin-bottom: 44px;
-  }
+.benefits {
+  padding: 84px 0;
+}
+.benefits-line-text-wrapp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.benefits-line {
+  height: 1px;
+  width: 60px;
+  background-color: #303030;
+  /* transform: rotate(90deg); */
+}
+.benefits-text {
+  display: block;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #303030;
+}
+.benefits-title {
+  font-family: Raleway;
+  width: 419px;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  color: #303030;
+  margin-bottom: 20px;
+}
+.benefits-paragraph {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  margin-bottom: 44px;
+}
+.sup-color-text {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #ff6c00;
 }
