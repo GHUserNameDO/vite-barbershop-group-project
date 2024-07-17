@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   .services .container {
     background-color: #111319;
-    background-image: url(../img/mobile-servises-bg.png);
+    background-image: url(../img/mobile-services-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,7 +10,7 @@
   @media screen and (min-resolution: 192dpi) {
     .services .container {
       background-color: #111319;
-      background-image: url(../img/mobile-servises-bg@2x.png);
+      background-image: url(../img/mobile-services-bg@2x.png);
     }
   }
 }
@@ -59,10 +59,15 @@
   padding: 30px 20px 30px 40px;
 }
 
-.services-and-price-list-item-text-span {
+.services-and-price-list-item {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.services-and-price-list-item-text {
   position: relative;
 }
-.services-and-price-list-item-text-span::after {
+.services-and-price-list-item-text::after {
   content: '';
   height: 1px;
   bottom: 0;
@@ -70,6 +75,10 @@
   position: absolute;
   width: 100%;
   background: #cecece;
+}
+
+.services-and-price-list-item-text-end {
+  position: relative;
 }
 
 .booking-link {
@@ -89,7 +98,7 @@
 }
 
 .booking-link:hover,
-.booking-link:focus,
+.booking-link:focus-visible,
 .booking-link:active {
   background-color: #ff6c00;
 }

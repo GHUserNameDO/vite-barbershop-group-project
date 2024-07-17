@@ -156,7 +156,7 @@
   }
 
   .header-sidebar-social-meadia-list-item-link:hover,
-  .header-sidebar-social-meadia-list-item-link:focus,
+  .header-sidebar-social-meadia-list-item-link:focus-visible,
   .header-sidebar-social-meadia-list-item-link:active {
     font-weight: 600;
     font-size: 11px;
@@ -229,7 +229,7 @@
   }
 
   .nav-link:hover,
-  .nav-link:focus,
+  .nav-link:focus-visible,
   .nav-link:active {
     color: #ff6c00;
   }
@@ -261,7 +261,7 @@
   }
 
   .address-link:hover,
-  .address-link:focus,
+  .address-link:focus-visible,
   .address-link:active {
     color: #ff6c00;
   }
@@ -283,7 +283,7 @@
   }
 
   .booking-link:hover,
-  .booking-link:focus,
+  .booking-link:focus-visible,
   .booking-link:active {
     background-color: #ff6c00;
   }
@@ -305,14 +305,14 @@
     color: #9da4bd;
   }
 
-  .header-slide-controll {
+  .header-slide-control {
     display: flex;
     justify-content: flex-end;
     gap: 24px;
     margin-right: 18px;
   }
 
-  .header-slide-controll-button {
+  .header-slide-control-button {
     padding: 0;
     background-color: transparent;
     font-weight: 600;
@@ -327,17 +327,17 @@
       border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .header-slide-controll-button.back {
+  .header-slide-control-button.back {
     text-align: left;
   }
 
-  .header-slide-controll-button.forward {
+  .header-slide-control-button.forward {
     text-align: right;
   }
 
-  .header-slide-controll-button:hover,
-  .header-slide-controll-button:focus,
-  .header-slide-controll-button:active {
+  .header-slide-control-button:hover,
+  .header-slide-control-button:focus-visible,
+  .header-slide-control-button:active {
     color: #ffffff;
     border-color: #ffffff;
   }
